@@ -10,11 +10,8 @@ Once the payment is done and invoice will be generated and email will be sent to
 
 ## Technologies Used:
 - HTML
-- CSS
-- JS
 
-
-## Screenshots for the website:
+## Screenshots of the website:
 
 <img width="914" alt="Screenshot 2023-03-18 142201" src="https://user-images.githubusercontent.com/116903773/226096344-e52c0697-3cd0-43fe-ad59-a1b909fe7154.png">
 
