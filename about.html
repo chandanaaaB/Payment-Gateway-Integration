@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Payment Gateway Integration</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .div1 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 75px;
+        overflow: hidden;
+        background: rgb(186, 33, 33);
+        color: White;
+    }
+    body {
+        background-image: url("https://cdn.pixabay.com/photo/2019/10/19/16/30/poverty-4561704_1280.jpg")
+    }
+    .about {
+        left: 20px;
+        right: 20px;   
+        color: rgb(255, 255, 255);
+        font-weight: 20px;
+        margin-left: 3%;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="logo" style="width:50px;">
+        </a>
+        <ul class="navbar-nav  navbar-dark">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="about" >
+        <center>
+            <h1><b>ABOUT US</b></h1>
+        </center>
+        <p><h4>Your small gift can make a big <br>differnce right now!</h4>As a non profit we rely on the donation<br>to provide a kind of a Healthcare child<br> deserve highly specialized <br>compassionate, family-centered<br> and customised to the special<br> health needs of children.</p>
+        <h4>Support our Community</h4>
+        <p> With your support, we are continuing  continue to rebuilt the lives of men women and child throughout their lives.
+            <br>GIVING A LITTLE SHARE CAN GIVE MANY YEARS OF LIFE TO SOMEONE.<br> <h4> Everyone May Become A Savior </h4><b>DONATE NOW</b>
+            <div class="btn btn-primary btn-lg active" role="button" aria-pressed="true">
+                <form>
+                    <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HCwxrAiVgOcZdO" async>
+                    </script>
+                </form>
+            </div>
+        </p>
+    </div>
+</body>
+</html>
